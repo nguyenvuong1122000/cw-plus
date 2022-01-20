@@ -485,6 +485,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "cw20-ics20-band"
+version = "0.10.3"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw-storage-plus",
+ "cw0",
+ "cw2",
+ "cw20",
+ "schemars",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
 name = "cw20-merkle-airdrop"
 version = "0.7.0"
 dependencies = [
